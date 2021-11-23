@@ -7,8 +7,12 @@ require("dotenv").config()
 require('./model/config');
 const routes = require('./route/route');
 
-
-app.use(cors());
+app.use(
+    cors({
+      origin: '*',
+      methods: "GET,POST,PUT,PATCH,DELETE",
+    })
+  );
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
