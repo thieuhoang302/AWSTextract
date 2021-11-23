@@ -17,7 +17,7 @@ const TablesText = ({activeTab, columns, searchText, onChange, tables, tableInde
                                 <input type="text" name="searchTableText"
                                        aria-label="Search text" className="form-control"
                                        placeholder="Type here to search"
-                                       value={searchText} onChange={onChange}/>
+                                       value={searchText} onChange={onChange} disabled/>    
                             </div>
                         </div>
                     </div>
