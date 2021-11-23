@@ -11,7 +11,7 @@ const Header = () => (
             <Collapse navbar>
                 <Nav className="ml-auto m-auto" navbar>
                     <NavItem className="text-uppercase" style={{fontSize: "23px", color: "#f3a435"}}>
-                        Textract demo
+                        Textract demo (Webapp phân tích hình ảnh thành chữ)
                     </NavItem>
                 </Nav>
             </Collapse>

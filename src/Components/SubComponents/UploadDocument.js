@@ -30,8 +30,14 @@ const UploadDocument = ({onSelect, selectedFile, onFileUpload, errorValidFile, f
                 </CardBody>
                 <CardFooter className="text-left">
                     <p className="card-text">
-                        <small className="text-muted">
-                            Note: Your document must be a .jpeg or .png. It must be no larger than 5MB.
+                        <p className="text-muted">
+                            Hướng dẫn sử dụng: <br/>
+                                               B1: Chọn thanh Browse để tải lên hình ảnh. <br/>
+                                               B2: Nhấn chọn Upload để tải hình ảnh lên. <br/>
+                                               B3: Thao tác các chức năng bên cột bên phải. <br/>
+                        </p>
+                        <small className="text-muted">         
+                            Note: Tài liệu của bạn phải là .jpeg hoặc .png. Nó không được lớn hơn 5MB.
                         </small>
                     </p>
                 </CardFooter>
