@@ -1,7 +1,7 @@
 # aws-textract
 **Setting up env**
 
-Create `.env` file 
+Create `.env` file at "server" folder
 
 - JWTSECRET=YOUR SECRET KEY
 - S3ACCESSKEYID=S3 ACCESS KEY ID
@@ -10,8 +10,11 @@ Create `.env` file
 - SESREGION=REGION
 
 ```console
-$ npm install
-$ npm start
+#Run Client:
+$ yarn install
+$ yarn start
+
+#Run Server:
 $ cd server
-$ npm install
-$ npm start
+$ yarn install
+$ yarn start
