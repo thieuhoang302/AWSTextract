@@ -99,7 +99,6 @@ const blockExtract = tableData => {
 module.exports.getAwsTextract = function (req, res) {
 	try {
 		const params = req.body;
-		console.log('123');
 		textract.analyzeDocument(params, function (err, data) {
 			if (err) {
 				console.log(err, err.stack); // an error occurred

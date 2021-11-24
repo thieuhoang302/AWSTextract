@@ -10,7 +10,7 @@ import UploadDocument from './SubComponents/UploadDocument';
 import Forms from './SubComponents/Forms';
 import { getSignedUrlInfo, onUploadDocument } from '../Actions';
 
-const S3BUCKET = 'awstextract-image';
+const S3BUCKET = 'group-26';
 
 const TABS = [
 	{ name: 'row-text', label: 'Raw Text' },
