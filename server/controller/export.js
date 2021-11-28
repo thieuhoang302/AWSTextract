@@ -136,7 +136,6 @@ module.exports.getSignedURL = function (req, res) {
 	const params = { Bucket: bucketName, Key: fileName, Expires: 90 };
 	if (opType === 'upload') {
 		params.ContentType = options.contentType;
-		// params.Tagging = options.tags ? querystring.stringify(options.tags) : ""
 		console.log('tags : ', params.Tagging);
 	} else if (opType === 'download' && options && options.versionId) {
 		params.VersionId = options.versionId;
