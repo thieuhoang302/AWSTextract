@@ -2,6 +2,7 @@
 
 #NHÓM 26. THÀNH VIÊN:
     THIỀU VĂN HOÀNG     18110114
+    
     HÀ ĐỨC ANH          18110075
 
 # aws-textract
