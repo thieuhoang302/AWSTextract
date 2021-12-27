@@ -4,9 +4,9 @@
 
 # Xin chào! <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 ## Nhóm 26:
-    1. Thiều Văn Hoàng          18128015 
+    1. Thiều Văn Hoàng          18110114 
     
-    2. Hà Đức Anh               18110188
+    2. Hà Đức Anh               18110075
 ## &#x270d; Giới thiệu đề tài
 
 AWS Textract là một dịch vụ dựa trên học sâu, chuyển đổi các loại tài liệu khác nhau thành định dạng có thể chỉnh sửa.
