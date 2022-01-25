@@ -23,6 +23,8 @@ AWS Textract là một dịch vụ dựa trên học sâu, chuyển đổi các 
 ![](https://img.shields.io/badge/Cloud-IAM-informational?style=flat&logo=amazon-aws&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Cloud-S3_Storage-informational?style=flat&logo=amazon-aws&logoColor=white&color=2bbc8a)
 
+## LINK DEMO: https://main.dmwv9mzt6t7h0.amplifyapp.com/
+
 ## 🚀 Hướng dẫn sử dụng:
     Bước 1: Tạo IAM có các quyền sử dụng Storage S3 và dịch vụ AWS Textract của AWS theo mục 2.2.2.1 tại báo cáo (file docx)
     Bước 2: Tạo file .env tại folder server chứa các thông tin sau:
